@@ -166,9 +166,8 @@ main(int argc, char** argv)
 		}
 	}
 
-	// Test driver may break at this function for inspection or create a core dump
-	last_call();
-
-	return 0;
+	// core
+        int * toCore = 0;
+        return *toCore;
 }
 
